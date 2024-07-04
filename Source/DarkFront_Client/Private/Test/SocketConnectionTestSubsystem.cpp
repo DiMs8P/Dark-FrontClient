@@ -10,7 +10,7 @@ void USocketConnectionTestSubsystem::Initialize(FSubsystemCollectionBase& Collec
 {
     Super::Initialize(Collection);
 
-    FString BaseURL = TEXT("ws://localhost:32000/ws");
+    /*FString BaseURL = TEXT("ws://localhost:32000/ws");
     TMap<FString, FString> Headers;
 
     FWebSocketsModule& WebSocketsModule = FModuleManager::LoadModuleChecked<FWebSocketsModule>("WebSockets");
@@ -38,5 +38,5 @@ void USocketConnectionTestSubsystem::Initialize(FSubsystemCollectionBase& Collec
         UE_LOG(LogTemp, Log, TEXT("Message from server: %s"), *Message);
     });
 
-    WebSocket->Connect();
+    WebSocket->Connect();*/
 }
